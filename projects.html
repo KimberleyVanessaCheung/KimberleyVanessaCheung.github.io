@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Kimberley Vanessa Cheung | Human Performance Tech</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background-animation">
+        <div class="grid-overlay"></div>
+        <canvas id="particles"></canvas>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">KVC</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Projects Header -->
+    <section class="projects-header">
+        <div class="container">
+            <h1 class="page-title">
+                <span class="title-number">Featured</span>
+                <span class="title-text">Projects</span>
+            </h1>
+            <p class="page-subtitle">Exploring human performance, augmentation, and technology</p>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-section">
+        <div class="container">
+            <!-- Kinetic Canvas Project -->
+            <div class="project-card featured">
+                <div class="project-image">
+                    <div class="project-preview">
+                        <iframe 
+                            src="https://kimberleyvanessacheung.github.io/kinetic-canvas" 
+                            title="Kinetic Canvas Live Demo"
+                            loading="lazy">
+                        </iframe>
+                        <div class="preview-overlay">
+                            <span class="preview-text">Live Preview</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <span class="project-label">Featured Project</span>
+                        <h2 class="project-title">Kinetic Canvas</h2>
+                    </div>
+                    <div class="project-description">
+                        <p>
+                            An interactive AI-powered hand tracking application that demonstrates the potential
+                            of computer vision for human movement analysis. Using real-time machine learning,
+                            Kinetic Canvas tracks hand gestures and movements, creating a foundation for
+                            applications in performance analysis, rehabilitation, and human-computer interaction.
+                        </p>
+                        <p>
+                            Built with ml5.js for real-time hand tracking and p5.js for visualization, this
+                            project showcases how technology can capture and interpret human movement—a key
+                            component in developing tools for athletic performance optimization and biomechanical analysis.
+                        </p>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">Computer Vision</span>
+                        <span class="tech-tag">Motion Tracking</span>
+                        <span class="tech-tag">ml5.js</span>
+                        <span class="tech-tag">p5.js</span>
+                        <span class="tech-tag">Human Movement Analysis</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://kimberleyvanessacheung.github.io/kinetic-canvas" 
+                           target="_blank" 
+                           class="btn btn-primary">
+                            <span>View Live Demo</span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/KimberleyVanessaCheung/kinetic-canvas" 
+                           target="_blank" 
+                           class="btn btn-secondary">
+                            <span>View Code</span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Placeholder for future projects -->
+            <div class="project-card upcoming">
+                <div class="project-content">
+                    <div class="project-header">
+                        <span class="project-label">Coming Soon</span>
+                        <h2 class="project-title">More Projects</h2>
+                    </div>
+                    <div class="project-description">
+                        <p>
+                            More exciting projects are in development. Stay tuned for innovative
+                            applications in human performance technology, biometric analysis, and
+                            athletic augmentation systems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="cta-title">Interested in collaborating on human performance tech?</h2>
+            <p class="cta-text">Let's push the boundaries of human potential together</p>
+            <a href="index.html#contact" class="btn btn-primary">
+                <span>Get In Touch</span>
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Kimberley Vanessa Cheung. Built with passion and code.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

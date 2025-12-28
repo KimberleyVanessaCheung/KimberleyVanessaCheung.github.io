@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimberley Vanessa Cheung | Creative Technologist & Athlete</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background-animation">
+        <div class="grid-overlay"></div>
+        <canvas id="particles"></canvas>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">KVC</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="glitch-wrapper">
+                <h1 class="hero-title" data-text="KIMBERLEY VANESSA CHEUNG">KIMBERLEY VANESSA CHEUNG</h1>
+            </div>
+            <p class="hero-subtitle">
+                <span class="typing-text">Creative Technologist | Athlete | Human Performance & Augmentation</span>
+            </p>
+            <div class="hero-buttons">
+                <a href="projects.html" class="btn btn-primary">
+                    <span>View Projects</span>
+                    <div class="btn-glow"></div>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span>Get In Touch</span>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">01.</span>
+                <span class="title-text">About Me</span>
+                <div class="title-line"></div>
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="highlight-text">
+                        Hello! I'm Kimberley, a creative technologist and athlete exploring the intersection of
+                        <span class="accent">human performance, augmentation, and technology</span>.
+                    </p>
+                    <p>
+                        With a BSc in Biochemistry and an MSc in Computing, I bridge the gap between biological
+                        sciences and cutting-edge technology. My unique background allows me to approach human
+                        performance optimization from both a scientific and technological perspective.
+                    </p>
+                    <p>
+                        As an athlete, I'm deeply invested in understanding how technology can enhance human
+                        capabilities. My work focuses on developing innovative applications that combine machine
+                        learning, computer vision, and biometric data to push the boundaries of human potential.
+                    </p>
+                    <p>
+                        Currently exploring projects at the intersection of ArtTech and human augmentation—creating
+                        interactive experiences that not only engage but actively enhance human performance and well-being.
+                    </p>
+                    <div class="tech-stack">
+                        <h3>Background & Expertise:</h3>
+                        <ul class="tech-list">
+                            <li><span class="tech-icon">▹</span> BSc Biochemistry</li>
+                            <li><span class="tech-icon">▹</span> MSc Computing</li>
+                            <li><span class="tech-icon">▹</span> Machine Learning & AI</li>
+                            <li><span class="tech-icon">▹</span> Computer Vision</li>
+                            <li><span class="tech-icon">▹</span> Human Performance Tech</li>
+                            <li><span class="tech-icon">▹</span> Biometric Analysis</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <div class="image-overlay"></div>
+                        <div class="profile-placeholder">
+                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="100" cy="100" r="80" fill="none" stroke="url(#gradient)" stroke-width="2"/>
+                                <circle cx="100" cy="80" r="30" fill="url(#gradient)"/>
+                                <path d="M 50 150 Q 100 120 150 150" fill="url(#gradient)"/>
+                                <defs>
+                                    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#00f5ff;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#7b2ff7;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">02.</span>
+                <span class="title-text">Get In Touch</span>
+                <div class="title-line"></div>
+            </h2>
+            <div class="contact-content">
+                <p class="contact-text">
+                    I'm currently open to collaborations in human performance technology, sports tech,
+                    and innovative projects exploring human augmentation. Let's connect and push the
+                    boundaries of what's possible!
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com/KimberleyVanessaCheung" target="_blank" class="social-link">
+                        <span>GitHub</span>
+                    </a>
+                    <a href="mailto:kvcheungimperial@gmail.com" class="social-link">
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Kimberley Vanessa Cheung. Built with passion and code.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
