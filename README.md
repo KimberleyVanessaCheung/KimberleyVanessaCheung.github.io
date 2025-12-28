@@ -39,19 +39,6 @@ Website Portfolio/
 - Glowing hover effects
 - Gradient text effects
 
-## 🚀 Local Development
-
-1. **Run a local server**:
-   ```bash
-   python3 -m http.server 8000
-   ```
-
-2. **Open in browser**:
-   ```
-   http://localhost:8000
-   ```
-
-
 
 Built with 💙 and code by Kimberley Vanessa Cheung
 
