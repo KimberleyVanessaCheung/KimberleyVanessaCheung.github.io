@@ -295,6 +295,7 @@ body {
 
 /* ===== SECTIONS ===== */
 .about,
+.experience,
 .contact {
     padding: 6rem 0;
     position: relative;
@@ -419,6 +420,68 @@ body {
 .profile-placeholder svg {
     width: 150px;
     height: 150px;
+}
+
+/* ===== EXPERIENCE SECTION ===== */
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.experience-card {
+    background: var(--card-bg);
+    border: 1px solid rgba(0, 245, 255, 0.1);
+    border-radius: 12px;
+    padding: 2.5rem;
+    transition: all 0.3s ease;
+}
+
+.experience-card:hover {
+    border-color: var(--primary-cyan);
+    box-shadow: 0 10px 40px var(--glow-cyan);
+    transform: translateY(-5px);
+}
+
+.experience-header {
+    margin-bottom: 1.5rem;
+}
+
+.experience-label {
+    display: inline-block;
+    color: var(--primary-cyan);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.75rem;
+}
+
+.experience-role {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.35rem;
+}
+
+.experience-company {
+    font-size: 1.15rem;
+    color: var(--primary-purple);
+    font-weight: 600;
+}
+
+.experience-description {
+    color: var(--text-secondary);
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.experience-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
 }
 
 /* ===== CONTACT SECTION ===== */
@@ -681,6 +744,10 @@ body {
     .about-content {
         grid-template-columns: 1fr;
         gap: 2rem;
+    }
+
+    .experience-grid {
+        grid-template-columns: 1fr;
     }
 
     .project-card.featured {

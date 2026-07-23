@@ -142,7 +142,7 @@ const observer = new IntersectionObserver((entries) => {
 }, observerOptions);
 
 // Observe sections for fade-in animation
-document.querySelectorAll('.about, .contact, .project-card').forEach(section => {
+document.querySelectorAll('.about, .experience, .contact, .project-card, .experience-card').forEach(section => {
     section.style.opacity = '0';
     section.style.transform = 'translateY(30px)';
     section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';

@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "name": "Website Portfolio",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "liveServer.settings.port": 5500,
+    "liveServer.settings.root": "/"
+  },
+  "extensions": {
+    "recommendations": [
+      "ritwickdey.liveserver",
+      "ecmel.vscode-html-css",
+      "esbenp.prettier-vscode"
+    ]
+  }
+}

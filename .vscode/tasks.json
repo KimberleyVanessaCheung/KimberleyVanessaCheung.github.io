@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Local Server",
+      "type": "shell",
+      "command": "python3 -m http.server 8080",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Open Portfolio in Browser",
+      "type": "shell",
+      "command": "open http://localhost:8080/index.html",
+      "dependsOn": ["Start Local Server"],
+      "problemMatcher": []
+    }
+  ]
+}
