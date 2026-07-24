@@ -296,6 +296,7 @@ body {
 /* ===== SECTIONS ===== */
 .about,
 .experience,
+.achievements,
 .contact {
     padding: 6rem 0;
     position: relative;
@@ -482,6 +483,104 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 0.6rem;
+}
+
+/* ===== ACHIEVEMENTS SECTION ===== */
+.achievement-block {
+    margin-bottom: 3rem;
+}
+
+.achievement-heading {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.3rem;
+    color: var(--primary-cyan);
+    margin-bottom: 1.25rem;
+}
+
+.education-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.education-item {
+    background: var(--card-bg);
+    border: 1px solid rgba(0, 245, 255, 0.1);
+    border-radius: 12px;
+    padding: 1.75rem;
+    transition: all 0.3s ease;
+}
+
+.education-item:hover {
+    border-color: var(--primary-cyan);
+    box-shadow: 0 8px 30px var(--glow-cyan);
+}
+
+.education-period {
+    color: var(--primary-purple);
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
+
+.education-degree {
+    color: var(--text-primary);
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+}
+
+.education-school {
+    color: var(--text-secondary);
+    font-size: 1rem;
+}
+
+.achievement-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.achievement-card {
+    background: var(--card-bg);
+    border: 1px solid rgba(0, 245, 255, 0.1);
+    border-radius: 12px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+}
+
+.achievement-card:hover {
+    border-color: var(--primary-cyan);
+    box-shadow: 0 10px 40px var(--glow-cyan);
+    transform: translateY(-3px);
+}
+
+.achievement-list {
+    list-style: none;
+}
+
+.achievement-list li {
+    color: var(--text-secondary);
+    font-size: 0.98rem;
+    line-height: 1.7;
+    margin-bottom: 0.65rem;
+}
+
+.skills-groups {
+    display: grid;
+    gap: 1.25rem;
+}
+
+.skills-group h4 {
+    color: var(--text-primary);
+    font-size: 1rem;
+    margin-bottom: 0.35rem;
+}
+
+.skills-group p {
+    color: var(--text-secondary);
+    font-size: 0.98rem;
+    line-height: 1.6;
 }
 
 /* ===== CONTACT SECTION ===== */
@@ -747,6 +846,11 @@ body {
     }
 
     .experience-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .education-list,
+    .achievement-grid {
         grid-template-columns: 1fr;
     }
 
